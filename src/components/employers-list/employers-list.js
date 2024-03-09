@@ -10,6 +10,7 @@ const EmployersList = ({data, onDelete}) => {
             key={id}
             {...itemProps}
             onDelete={() => onDelete(id)}
+            onAdd={() => console.log('added')}
             />
         )
     })
